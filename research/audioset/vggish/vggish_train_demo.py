@@ -52,9 +52,9 @@ import tensorflow.compat.v1 as tf
 tf.disable_v2_behavior()
 import tf_slim as slim
 
-import vggish_input
-import vggish_params
-import vggish_slim
+from . import vggish_input
+from . import vggish_params
+from . import vggish_slim
 
 flags = tf.app.flags
 

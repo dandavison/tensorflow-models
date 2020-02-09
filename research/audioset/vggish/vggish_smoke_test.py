@@ -35,10 +35,10 @@ import numpy as np
 import tensorflow.compat.v1 as tf
 tf.disable_v2_behavior()
 
-import vggish_input
-import vggish_params
-import vggish_postprocess
-import vggish_slim
+from . import vggish_input
+from . import vggish_params
+from . import vggish_postprocess
+from . import vggish_slim
 
 print('\nTesting your install of VGGish\n')
 
